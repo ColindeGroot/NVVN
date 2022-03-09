@@ -1,4 +1,5 @@
 
+
 <hr>
 <br>
 
@@ -10,9 +11,7 @@ Onze taak hierbij is om met SVG elementen die we mee hebben gekregen een slide-t
 
 <br>
 <p align="center"> <a href="https://trello.com/b/JEwdOCEz/nvvn">Trello<a/> <p/>
+
 <hr>
 
-<p align="center">
-	 <img src="https://nvvn.nl/wp-content/uploads/2021/03/nvvn-wit-				webfriendly.png" alt="NVVN logo"
-	 width="100%"/>
-</p>
+<img  align="left"  width="100%"  height="100%"  src="https://nvvn.nl/wp-content/uploads/2021/03/nvvn-wit-webfriendly.png">
