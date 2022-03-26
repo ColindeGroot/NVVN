@@ -1,14 +1,22 @@
 
+const b1 = document.getElementById("a1");
 
-const element = document.getElementById("a1");
+var anim1  = bodymovin.loadAnimation({
+    wrapper: document.getElementById('anim1'),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'https://assets1.lottiefiles.com/private_files/lf30_u8rbz7zb.json'
+});
 
-element.addEventListener("click", function() {
-    var animation = bodymovin.loadAnimation({
-        container: document.getElementById('anim'),
-        renderer: 'svg',
-        loop: false,
-        autoplay: true,
-        path: 'lf30_u0hwvlj5.json'
-    });
-/*     window.open("https://www.google.com","_self")
- */});
+/* b1.addEventListener("click", () => {
+    anim1.play();
+}); */
+
+/* document.addEventListener('DOMContentLoaded', function() {
+    anim1.play();
+});
+
+window.onload = function() {
+    anim1.play();
+}; */
