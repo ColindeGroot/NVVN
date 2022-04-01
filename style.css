@@ -20,6 +20,25 @@ body {
     position: relative;
 }
 
+.water {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#loading {
+    width: 400px;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+}
+
+.loading-hide {
+    display: none;
+}
+
 #overlay {
     background-color: #f0f6ff;
     height: 100%;
