@@ -6,6 +6,8 @@
     overflow: hidden;
     pointer-events: none;
     z-index: 2;
+    width: 100%;
+    height: auto;
 }
 
 * {
