@@ -10,19 +10,7 @@
     height: auto;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    position: relative;
-}
-
-.water {
+.hide-scroll {
     height: 100vh;
     overflow: hidden;
 }
