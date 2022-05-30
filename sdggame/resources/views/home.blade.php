@@ -1,7 +1,13 @@
 @extends('layouts.standaard')
 @include('nav')
 
-<div class="swiper-box">
+<div id="intro-box" class="intro-box">
+    <div class="title" >Sustainable Design game</div>
+    <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
+    <button id="toggle" >Start game</button>
+</div>
+
+<div id="swiper-box" class="swiper-box">
 
    <div class="swiper-container">
 
@@ -29,9 +35,13 @@
             </div>
         </div>
 
+        <div class="desktop-buttons">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+   </div>
+    <div class="mobile-buttons">
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-
-   </div>
-
+    </div>  
 </div>

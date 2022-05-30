@@ -34,6 +34,25 @@ function hideScroll() {
 // wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
 window.onload = () => anim1.play(), setTimeout(hide, 3000), setTimeout(hideScroll, 6000);
 
+const introBox = document.getElementById("intro-box");
+const swiperBox = document.getElementById("swiper-box");
+const introButton = document.getElementById("toggle");
+introButton.onclick = function () {
+    
+  if (introBox.style.display !== "none") {
+    introBox.style.display = "none";
+  } else {
+    introBox.style.display = "block";
+  }
+
+  if (swiperBox.style.display !== "none") {
+    swiperBox.style.display = "flex";
+  } else {
+    swiperBox.style.display = "block";
+  }
+};
+
+// swiper settings
 const swiper = new Swiper(".swiper", {
     effect: "cards",
     grabCursor: true,

@@ -77,14 +77,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .swiper-container {
     height: 80%;
+    width: 850px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     position: relative;
+    text-align: center;
 }
 
 .swiper {
@@ -188,9 +191,43 @@
 .swiper-button-prev {
     background-color: white;
     padding: 30px;
-    color: #000 !important;
-    fill: black !important;
-    stroke: black !important;
+    border-radius: 10px;
+    font-weight: 900;
+    color: #278FD1 !important;
+    fill: #278FD1 !important;
+    stroke: #278FD1 !important;
     position: absolute;
-    bottom: -100px !important;
 }
+
+.mobile-buttons {
+    position: absolute;
+    background-color: red;
+    display: flex;
+    width: 850px;
+    bottom: 10em;
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav_half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        justify-content: space-between;
+    }
+    .swiper-container {
+        width: 500px;
+    }
+    .swiper-box {
+        height: 70vh;
+    }
+    .mobile-buttons {
+        width: 300px;
+        display: block;
+        bottom: 7em;
+    }
+    .desktop-buttons {
+        display: none;
+    }
+  }
