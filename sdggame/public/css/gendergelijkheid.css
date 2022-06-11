@@ -1,0 +1,27 @@
+.area {
+    background: white  !important;
+}
+
+.circles li{
+    background: rgba(255, 0, 0, 1) !important;
+}
+
+.circles li img {
+    opacity: 45% !important;
+}
+
+.imgholder{
+    position: relative;
+    max-width: 100%;
+    margin: 10px;
+    max-height: 100%;
+    background-color: green;
+}
+
+.sdg {
+    background-color: #EE402D;
+}
+
+.start-button {
+    background-color: #EE402D !important;
+}

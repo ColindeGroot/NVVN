@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::get('/watervervuiling', function () {
-    return view('watervervuiling');
-})->name('watervervuiling');
+Route::get('/gendergelijkheid', function () {
+    return view('gendergelijkheid');
+})->name('gendergelijkheid');
