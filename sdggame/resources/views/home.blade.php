@@ -2,9 +2,12 @@
 @include('nav')
 
 <div id="intro-box" class="intro-box wrapper">
-    <div class="title" >Sustainable Design game</div>
-    <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
-    <div class="button" id="toggle" >Start game</div>
+    <div class="intro-box-wrapper">
+        <div class="title" >Sustainable Design game</div>
+        <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
+        <div class="button" id="toggle" >Start game</div>
+        <div id="globe"></div>
+    </div>
 </div>
 
 <div id="swiper-box" class="swiper-box wrapper">

@@ -13,9 +13,9 @@
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
     <body class="hide-scroll">
-        {{-- <div id="loading"></div> <!-- laad icoon -->
+        <div id="loading"></div> <!-- laad icoon -->
         <div id="overlay"></div> <!-- dit verbergt de pagina voor paar seconden -->
-        <div id="anim1"></div> --}}
+        <div id="anim1"></div>
 
             <div class="container">
                 @yield('content')

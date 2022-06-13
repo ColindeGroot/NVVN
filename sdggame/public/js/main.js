@@ -4,7 +4,7 @@ var anim1  = bodymovin.loadAnimation({
     wrapper: document.getElementById('anim1'),
     renderer: 'svg',
     loop: false,
-    autoplay: false,
+    autoplay: true,
     path: 'https://assets5.lottiefiles.com/packages/lf20_isjkjty2.json'
 }); 
 
@@ -16,6 +16,14 @@ var loading  = bodymovin.loadAnimation({
     autoplay: true,
     path: 'https://assets8.lottiefiles.com/packages/lf20_dkz94xcg.json'
 });
+
+var anim1  = bodymovin.loadAnimation({
+  wrapper: document.getElementById('globe'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'https://assets2.lottiefiles.com/packages/lf20_n2vsl4qm.json'
+}); 
 
 //verbergt de page wanneer de overgang bezig is
 function hide() {
