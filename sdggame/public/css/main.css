@@ -1,5 +1,7 @@
-@import url("style.css");
 @import url("variables.css");
+@import url("style.css");
+@import url("home.css");
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
@@ -22,6 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -62,6 +65,51 @@ a {
     margin-top: 4px;
     transition: 50ms ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px;
+}
+
+#anim1 {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+
+.hide-scroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#loading {
+    width: 400px;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 50vh auto 0;
+    transform: translateY(-50%);
+}
+
+.loading-hide {
+    display: none;
+}
+
+#overlay {
+    background-color: #f0f6ff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overlay-hide {
+    display: none;
 }
 
 @media only screen and (max-width: 900px) {

@@ -1,11 +1,11 @@
 @extends('layouts.sdg')
-<link rel="stylesheet" href="{{url('css/gendergelijkheid.css')}}" type="text/css"> 
+<link rel="stylesheet" href="{{url('css/geenarmoede.css')}}" type="text/css"> 
     
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >5. Gendergelijkheid</div>
-                    <div class="sub-title">Gelijke rechten voor mannen en vrouwen en empowerment van vrouwen en meisjes </div>
+                    <div class="sdg-title" >1. Geen armoede</div>
+                    <div class="sub-title">Uitbannen van alle vormen van (extreme) armoede</div>
                     <div class="text" >
                         Gender zijn de kenmerken van een jongen of een meisje.
                         Dit is lichamelijk, maar ook sociaal, zoals dat
@@ -17,7 +17,7 @@
                 </div>
                     
                 <div class="sdg-imagebox">
-                    <img class="sdg" src="{{url('images/sdg5.svg')}}">
+                    <img class="sdg" src="{{url('images/sdg1.svg')}}">
                 </div>
             </div>
         </div>

@@ -22,7 +22,7 @@ var anim1  = bodymovin.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'https://assets2.lottiefiles.com/packages/lf20_n2vsl4qm.json'
+  path: 'https://assets1.lottiefiles.com/packages/lf20_fxnuatmv.json'
 }); 
 
 //verbergt de page wanneer de overgang bezig is

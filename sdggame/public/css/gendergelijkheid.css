@@ -2,26 +2,22 @@
     background: white  !important;
 }
 
+.sub-title {
+    color: var(--sdg5);
+}
+
+.sdg-title {
+    color: var(--sdg5);
+}
+
 .circles li{
-    background: rgba(255, 0, 0, 1) !important;
-}
-
-.circles li img {
-    opacity: 45% !important;
-}
-
-.imgholder{
-    position: relative;
-    max-width: 100%;
-    margin: 10px;
-    max-height: 100%;
-    background-color: green;
+    background: var(--sdg5) !important;
 }
 
 .sdg {
-    background-color: #EE402D;
+    background-color: var(--sdg5);
 }
 
 .start-button {
-    background-color: #EE402D !important;
+    background-color: var(--sdg5) !important;
 }

@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/gendergelijkheid', function () {
     return view('gendergelijkheid');
 })->name('gendergelijkheid');
+
+Route::get('/geenarmoede', function () {
+    return view('geenarmoede');
+})->name('geenarmoede');
+
+Route::get('/geenhonger', function () {
+    return view('geenhonger');
+})->name('geenhonger');

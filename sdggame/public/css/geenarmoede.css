@@ -1,0 +1,23 @@
+.area {
+    background: white  !important;
+}
+
+.sub-title {
+    color: var(--sdg1);
+}
+
+.sdg-title {
+    color: var(--sdg1);
+}
+
+.circles li{
+    background: var(--sdg1) !important;
+}
+
+.sdg {
+    background-color: var(--sdg1);
+}
+
+.start-button {
+    background-color: var(--sdg1) !important;
+}

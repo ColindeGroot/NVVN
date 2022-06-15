@@ -1,7 +1,7 @@
 
 .area{
-    background: #278FD1;  
-    background: linear-gradient(to top, #2790d1e5, #278FD1);  
+    background: var(--primary);  
+    /* background: linear-gradient(to top, #2790d1e5, #278FD1);   */
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -12,6 +12,7 @@
 .circles li img {
     height: 80%;
     opacity: 100%;
+    overflow: hidden;
 }
 
 .circles{

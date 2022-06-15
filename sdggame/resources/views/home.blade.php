@@ -1,9 +1,9 @@
 @extends('layouts.standaard')
 @include('nav')
 
-<div id="intro-box" class="intro-box wrapper">
-    <div class="intro-box-wrapper">
-        <div class="title" >Sustainable Design game</div>
+<div id="intro-box" class="intro-box-wrapper wrapper">
+    <div class="intro-box">
+        <div class="title" >Welkom bij SDG Game</div>
         <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
         <div class="button" id="toggle" >Start game</div>
         <div id="globe"></div>
@@ -18,8 +18,8 @@
 
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><a class="sdg1" href="<?php echo route('gendergelijkheid'); ?>"><img src="{{url('images/sdg1.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg2" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg2.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg1" href="<?php echo route('geenarmoede'); ?>"><img src="{{url('images/sdg1.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg2" href="<?php echo route('geenhonger'); ?>"><img src="{{url('images/sdg2.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg3" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg3.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg4" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg4.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg5" href="<?php echo route('gendergelijkheid'); ?>"><img src="{{url('images/sdg5.svg')}}"></a></div>
