@@ -1,7 +1,7 @@
 @extends('layouts.standaard')
 @include('nav')
 
-<div id="intro-box" class="intro-box-wrapper wrapper">
+<div id="intro-box" class="intro-box-wrapper wrapper animate one">
     <div class="intro-box">
         <div class="title" >Welkom bij SDG Game</div>
         <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div id="swiper-box" class="swiper-box wrapper">
+<div id="swiper-box" class="swiper-box wrapper animate fadeInUp one">
 
    <div class="swiper-container">
 

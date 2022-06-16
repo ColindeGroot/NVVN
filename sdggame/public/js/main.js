@@ -45,10 +45,16 @@ window.onload = () => anim1.play(), setTimeout(hide, 3000), setTimeout(hideScrol
 const introBox = document.getElementById("intro-box");
 const swiperBox = document.getElementById("swiper-box");
 const introButton = document.getElementById("toggle");
+
+const myTimeout = setTimeout(1000);
+
 introButton.onclick = function () {
     
   if (introBox.style.display !== "none") {
-    introBox.style.display = "none";
+    introBox.classList.add('fadeInDown')
+    setTimeout(function(){
+      introBox.style.display = "none";
+    }, 1000);
   } else {
     introBox.style.display = "block";
   }

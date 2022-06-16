@@ -19,7 +19,7 @@
 
 .intro-box .button {
     background-color: white;
-    color: #278FD1;
+    color: #278fd1;
     position: absolute;
     padding: 1em 3em;
     bottom: 11.5%;
@@ -94,59 +94,59 @@
 }
 
 .sdg2 {
-    background-color: #E4AC3E;
+    background-color: #e4ac3e;
 }
 
 .sdg3 {
-    background-color: #479D2C;
+    background-color: #479d2c;
 }
 
 .sdg4 {
-    background-color: #C82C2D;
+    background-color: #c82c2d;
 }
 
 .sdg5 {
-    background-color: #EC5128;
+    background-color: #ec5128;
 }
 
 .sdg6 {
-    background-color: #4CACD5;
+    background-color: #4cacd5;
 }
 
 .sdg7 {
-    background-color: #F4BF42;
+    background-color: #f4bf42;
 }
 
 .sdg8 {
-    background-color: #921F33;
+    background-color: #921f33;
 }
 
 .sdg9 {
-    background-color: #EE7235;
+    background-color: #ee7235;
 }
 
 .sdg10 {
-    background-color: #EA346F;
+    background-color: #ea346f;
 }
 
 .sdg11 {
-    background-color: #EFB23E;
+    background-color: #efb23e;
 }
 
 .sdg12 {
-    background-color: #E28B32;
+    background-color: #e28b32;
 }
 
 .sdg13 {
-    background-color: #518F36;
+    background-color: #518f36;
 }
 
 .sdg14 {
-    background-color: #3781D8;
+    background-color: #3781d8;
 }
 
 .sdg15 {
-    background-color: #75C350;
+    background-color: #75c350;
 }
 
 .sdg16 {
@@ -163,9 +163,9 @@
     padding: 30px;
     border-radius: 10px;
     font-weight: 900;
-    color: #278FD1 !important;
-    fill: #278FD1 !important;
-    stroke: #278FD1 !important;
+    color: #278fd1 !important;
+    fill: #278fd1 !important;
+    stroke: #278fd1 !important;
     position: absolute;
 }
 
@@ -208,5 +208,59 @@
     .intro-box {
         margin-top: 10em;
     }
+}
 
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.one {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(500px);
+        -webkit-transform: translateY(500px);
+        opacity: 0;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.lol {
+    background-color: red;
 }
