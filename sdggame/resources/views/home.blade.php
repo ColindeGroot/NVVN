@@ -3,10 +3,10 @@
 
 <div id="intro-box" class="intro-box-wrapper wrapper animate one">
     <div class="intro-box">
-        <div class="title" >Welkom bij SDG Game</div>
-        <div class="tekst" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
-        <div class="button" id="toggle" >Start game</div>
-        <div id="globe"></div>
+        <div id="intro-box-title" class="title animate-fast one" >Welkom bij SDG Game!</div>
+        <div id="intro-box-text" class="tekst animate-fast one" >De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.</div>
+        <div class="button animate-fast one" id="toggle" >Start game</div>
+        <div id="globe" class="animate one"></div>
     </div>
 </div>
 

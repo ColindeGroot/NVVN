@@ -9,15 +9,15 @@ var anim1  = bodymovin.loadAnimation({
 }); 
 
 //haalt laad animatie op
-var loading  = bodymovin.loadAnimation({
+/* var loading  = bodymovin.loadAnimation({
     wrapper: document.getElementById('loading'),
     renderer: 'svg',
     loop: true,
     autoplay: true,
     path: 'https://assets8.lottiefiles.com/packages/lf20_dkz94xcg.json'
-});
+}); */
 
-var anim1  = bodymovin.loadAnimation({
+var globeAnim  = bodymovin.loadAnimation({
   wrapper: document.getElementById('globe'),
   renderer: 'svg',
   loop: true,
@@ -45,24 +45,38 @@ window.onload = () => anim1.play(), setTimeout(hide, 3000), setTimeout(hideScrol
 const introBox = document.getElementById("intro-box");
 const swiperBox = document.getElementById("swiper-box");
 const introButton = document.getElementById("toggle");
+const globe = document.getElementById("globe")
+const introTitle = document.getElementById("intro-box-title")
+const introText = document.getElementById("intro-box-text")
 
 const myTimeout = setTimeout(1000);
 
 introButton.onclick = function () {
     
   if (introBox.style.display !== "none") {
-    introBox.classList.add('fadeInDown')
+    introTitle.classList.add('fadeOut')
+    introText.classList.add('fadeOut')
+    introButton.classList.add('fadeOut')
+    globe.classList.add('fadeInDownGlobe')
+    setTimeout(function(){
+      globeAnim.setSpeed(10);
+    }, 500);
+    setTimeout(function(){
+      introBox.classList.add('fadeInDown')
+    }, 1500);
     setTimeout(function(){
       introBox.style.display = "none";
-    }, 1000);
+    }, 2500);
   } else {
     introBox.style.display = "block";
   }
 
   if (swiperBox.style.display !== "none") {
-    swiperBox.style.display = "flex";
+    setTimeout(function(){
+      swiperBox.style.display = "flex";
+    }, 2500);
   } else {
-    swiperBox.style.display = "block";
+    swiperBox.style.display = "flex";
   }
 };
 

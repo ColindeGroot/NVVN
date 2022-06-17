@@ -85,7 +85,7 @@ a {
 }
 
 #loading {
-    width: 400px;
+    width: 75px;
     z-index: 2;
     position: absolute;
     left: 0;
@@ -99,7 +99,7 @@ a {
 }
 
 #overlay {
-    background-color: #f0f6ff;
+    background-color: var(--primary);
     height: 100%;
     width: 100%;
     position: absolute;

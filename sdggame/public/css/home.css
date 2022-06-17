@@ -217,6 +217,13 @@
     animation-fill-mode: both;
 }
 
+.animate-fast {
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
 .one {
     -webkit-animation-delay: 0.5s;
     -moz-animation-delay: 0.5s;
@@ -244,12 +251,41 @@
         transform: translateY(0);
     }
 
+
     to {
-        transform: translateY(500px);
-        -webkit-transform: translateY(500px);
+        transform: translateY(1000px);
+        -webkit-transform: translateY(1000px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDownGlobe {
+    from {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-300px);
+        -webkit-transform: translateY(-300px);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
         opacity: 0;
     }
 }
+
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
 
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
@@ -261,6 +297,7 @@
     animation-name: fadeInDown;
 }
 
-.lol {
-    background-color: red;
+.fadeInDownGlobe {
+    -webkit-animation-name: fadeInDownGlobe;
+    animation-name: fadeInDownGlobe;
 }
