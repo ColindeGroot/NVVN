@@ -1,5 +1,4 @@
-@extends('layouts.standaard')
-@include('nav')
+<x-standaard>
 
 <div id="intro-box" class="intro-box-wrapper wrapper animate one">
     <div class="intro-box">
@@ -20,8 +19,8 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><a class="sdg1" href="<?php echo route('geenarmoede'); ?>"><img src="{{url('images/sdg1.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg2" href="<?php echo route('geenhonger'); ?>"><img src="{{url('images/sdg2.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg3" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg3.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg4" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg4.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg3" href="<?php echo route('goedegezondheid'); ?>"><img src="{{url('images/sdg3.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg4" href="<?php echo route('kwaliteitsonderwijs'); ?>"><img src="{{url('images/sdg4.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg5" href="<?php echo route('gendergelijkheid'); ?>"><img src="{{url('images/sdg5.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg6" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg6.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg7" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg7.svg')}}"></a></div>
@@ -39,12 +38,13 @@
         </div>
 
         <div class="desktop-buttons">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"><i class="fa-solid fa-caret-right"></i></div>
+            <div class="swiper-button-prev"><i class="fa-solid fa-caret-left"></i></div>
         </div>
    </div>
     <div class="mobile-buttons">
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"><i class="fa-solid fa-caret-right"></i></div>
+        <div class="swiper-button-prev"><i class="fa-solid fa-caret-left"></i></div>
     </div>  
 </div>
+</x-standaard>

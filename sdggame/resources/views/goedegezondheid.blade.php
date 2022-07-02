@@ -1,18 +1,18 @@
 <x-sdg>
-    <link rel="stylesheet" href="{{url('css/geenarmoede.css')}}" type="text/css"> 
+    <link rel="stylesheet" href="{{url('css/goedegezondheid.css')}}" type="text/css"> 
     
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >1. Geen armoede</div>
-                    <div class="sub-title">Uitbannen van alle vormen van (extreme) armoede</div>
+                    <div class="sdg-title" >3. Goede gezondheid en welzijn</div>
+                    <div class="sub-title">Gezondheidszorg voor iedereen</div>
                     <div class="text" >
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
                     </div>
                 </div>
                     
                 <div class="sdg-imagebox">
-                    <img class="sdg" src="{{url('images/sdg1.svg')}}">
+                    <img class="sdg" src="{{url('images/sdg3.svg')}}">
                 </div>
             </div>
         </div>

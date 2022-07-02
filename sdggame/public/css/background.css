@@ -179,7 +179,7 @@
 
     0%{
         transform: translateY(0) rotate(0deg);
-        opacity: .3;
+        opacity: 1;
         border-radius: 0;
     }
 

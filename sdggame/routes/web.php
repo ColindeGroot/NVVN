@@ -28,3 +28,11 @@ Route::get('/geenarmoede', function () {
 Route::get('/geenhonger', function () {
     return view('geenhonger');
 })->name('geenhonger');
+
+Route::get('/goedegezondheid', function () {
+    return view('goedegezondheid');
+})->name('goedegezondheid');
+
+Route::get('/kwaliteitsonderwijs', function () {
+    return view('kwaliteitsonderwijs');
+})->name('kwaliteitsonderwijs');

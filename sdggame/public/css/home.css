@@ -89,125 +89,36 @@
     height: 100%;
 }
 
-.sdg1 {
-    background-color: var(--sdg1);
-}
-
-.sdg2 {
-    background-color: #e4ac3e;
-}
-
-.sdg3 {
-    background-color: #479d2c;
-}
-
-.sdg4 {
-    background-color: #c82c2d;
-}
-
-.sdg5 {
-    background-color: #ec5128;
-}
-
-.sdg6 {
-    background-color: #4cacd5;
-}
-
-.sdg7 {
-    background-color: #f4bf42;
-}
-
-.sdg8 {
-    background-color: #921f33;
-}
-
-.sdg9 {
-    background-color: #ee7235;
-}
-
-.sdg10 {
-    background-color: #ea346f;
-}
-
-.sdg11 {
-    background-color: #efb23e;
-}
-
-.sdg12 {
-    background-color: #e28b32;
-}
-
-.sdg13 {
-    background-color: #518f36;
-}
-
-.sdg14 {
-    background-color: #3781d8;
-}
-
-.sdg15 {
-    background-color: #75c350;
-}
-
-.sdg16 {
-    background-color: #245597;
-}
-
-.sdg17 {
-    background-color: #322891;
-}
-
 .swiper-button-next,
 .swiper-button-prev {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
+    background: none;
     font-weight: 900;
-    color: #278fd1 !important;
-    fill: #278fd1 !important;
-    stroke: #278fd1 !important;
     position: absolute;
+    outline:0 !important
 }
+
+.swiper-button-prev i,
+.swiper-button-next i {
+    color: var(--white);
+    font-size: 8em;
+}
+
+.swiper-button-prev i {
+    text-shadow: -4px 4px 0px rgba(0, 0, 0, 0.105);
+}
+
+.swiper-button-next i {
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.105);
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    display: none;
+  }
 
 .mobile-buttons {
     position: absolute;
     display: flex;
     width: 850px;
-    bottom: 10em;
-    display: none;
-}
-
-@media only screen and (max-width: 900px) {
-    .nav_half {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40%;
-        justify-content: space-between;
-    }
-    .intro-box {
-        width: auto;
-    }
-    .swiper-container {
-        width: 500px;
-    }
-    .swiper-box {
-        height: 70vh;
-    }
-    .mobile-buttons {
-        width: 300px;
-        display: block;
-        bottom: 7em;
-    }
-    .desktop-buttons {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 1600px) {
-    .intro-box {
-        margin-top: 10em;
-    }
 }
 
 .animate {
@@ -300,4 +211,43 @@
 .fadeInDownGlobe {
     -webkit-animation-name: fadeInDownGlobe;
     animation-name: fadeInDownGlobe;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav_half {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        justify-content: space-between;
+    }
+    .nav_logo1 {
+        height: 6vh;
+    }
+    .nav_logo2 {
+        height: 6vh;
+    }
+    .intro-box {
+        width: auto;
+    }
+    .swiper-container {
+        width: 500px;
+    }
+    .swiper-box {
+        height: 70vh;
+    }
+    .mobile-buttons {
+        width: 300px;
+        display: block;
+        bottom: -3em;
+    }
+    .desktop-buttons {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .intro-box {
+        margin-top: 10em;
+    }
 }

@@ -1,6 +1,10 @@
 .sub-title {
 }
 
+.container {
+    height: 100%;
+}
+
 .sdg-title {
     font-weight: 600;
     font-size: 6em;
@@ -64,6 +68,7 @@
 
 .terug-button {
     width: 150px;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 1200px) {

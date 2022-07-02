@@ -1,5 +1,5 @@
-@extends('layouts.sdg')
-<link rel="stylesheet" href="{{url('css/gendergelijkheid.css')}}" type="text/css"> 
+<x-sdg>
+    <link rel="stylesheet" href="{{url('css/gendergelijkheid.css')}}" type="text/css"> 
     
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
@@ -22,6 +22,7 @@
             </div>
         </div>
         <div class="sdg-buttons wrapper">
-            <a href="<?php echo route('home'); ?>"><div class="terug-button button" ><i class="fa-solid fa-circle-left"></i> Terug</div></a>
+            <button class="terug-button button" onclick="history.back()"><i class="fa-solid fa-circle-left"></i> Terug</button>
             <a href="#"><div class="start-button button" >Start challenge</div></a>
         </div>
+</x-sdg>
