@@ -99,7 +99,7 @@
 
 .swiper-button-prev i,
 .swiper-button-next i {
-    color: var(--white);
+    color: var(--secondary);
     font-size: 8em;
 }
 
@@ -115,10 +115,17 @@
     display: none;
   }
 
+.desktop-buttons {
+    position: absolute;
+    bottom: 100px !important; 
+    width: 850px;
+}
+
 .mobile-buttons {
     position: absolute;
     display: flex;
     width: 850px;
+    display: none;
 }
 
 .animate {

@@ -10,10 +10,6 @@
     color: var(--sdg2);
 }
 
-.circles li{
-    background: var(--sdg2) !important;
-}
-
 .sdg {
     background-color: var(--sdg2);
 }

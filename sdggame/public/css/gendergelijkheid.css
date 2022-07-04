@@ -11,10 +11,6 @@
     font-size: 5em !important;
 }
 
-.circles li{
-    background: var(--sdg5) !important;
-}
-
 .sdg {
     background-color: var(--sdg5);
 }

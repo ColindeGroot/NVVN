@@ -10,7 +10,7 @@
 
 <p>
 
-In dit project werken we in opdracht van NVVN aan een SDG game. SDG game, (wat oorspronkelijk een bord spel is) is een spel om mensen bewust te maken van het milieu.
+In dit project werken we in opdracht van NVVN aan SDG-Game. De SDG-game is een online spel over de 17 duurzame ontwikkelingsdoelen. Dit online spel daagt studenten uit zich te verdiepen in de SDG’s en om challenges uit te voeren zodat zij kennis maken met alle SDG’s volgens de Nederlandse maatstaven.
 
 
 </p>
