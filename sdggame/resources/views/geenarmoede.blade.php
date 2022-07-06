@@ -7,7 +7,7 @@
                     <div class="sdg-title" >1. Geen armoede</div>
                     <div class="sub-title">Uitbannen van alle vormen van (extreme) armoede</div>
                     <div class="text" >
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Einde aan de armoede gaat over het verminderen van alle vormen van armoede. De SDG-agenda vraagt speciale aandacht voor sociale bescherming, gelijke economische rechten en weerbaarheid van arme en kwetsbare groepen. Omdat armoede in Nederland er anders uit ziet dan armoede in de armste landen van de wereld is dit voor Nederland aangepast. Nederland richt zich op het voorkomen en tegengaan van armoede en problematische schulden, met speciale aandacht voor kinderen die in armoede leven.
                     </div>
                 </div>
                     
@@ -18,6 +18,6 @@
         </div>
         <div class="sdg-buttons wrapper">
             <button class="terug-button button" onclick="history.back()"><i class="fa-solid fa-circle-left"></i> Terug</button>
-            <a href="#"><div class="start-button button" >Start challenge</div></a>
+            <a href="<?php echo route('geenarmoede-opdracht'); ?>"><div class="start-button button" >Start challenge</div></a>
         </div>
 </x-sdg>

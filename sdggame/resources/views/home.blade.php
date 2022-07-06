@@ -22,10 +22,10 @@
                 <div class="swiper-slide"><a class="sdg3" href="<?php echo route('goedegezondheid'); ?>"><img src="{{url('images/sdg3.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg4" href="<?php echo route('kwaliteitsonderwijs'); ?>"><img src="{{url('images/sdg4.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg5" href="<?php echo route('gendergelijkheid'); ?>"><img src="{{url('images/sdg5.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg6" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg6.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg7" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg7.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg8" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg8.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg9" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg9.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg6" href="<?php echo route('schoonwater'); ?>"><img src="{{url('images/sdg6.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg7" href="<?php echo route('energie'); ?>"><img src="{{url('images/sdg7.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg8" href="<?php echo route('eerlijkwerk'); ?>"><img src="{{url('images/sdg8.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg9" href="<?php echo route('industrie'); ?>"><img src="{{url('images/sdg9.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg10" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg10.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg11" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg11.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg12" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg12.svg')}}"></a></div>
