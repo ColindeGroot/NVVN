@@ -4,7 +4,7 @@
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >5. Gendergelijkheid</div>
+                    <div class="sdg-title" ><span>5.</span> Gendergelijkheid</div>
                     <div class="sub-title">Gelijke rechten voor mannen en vrouwen en empowerment van vrouwen en meisjes </div>
                     <div class="text" >
                         Mannen en vrouwen moeten gelijk behandeld worden en een gelijkwaardige plek in de samenleving hebben. Hiervoor moet een eind komen aan achterstand van vooral vrouwen en meisjes op allerlei gebieden, waaronder dwang en geweld, werk en zorg, maar ook invloed in het openbare leven.

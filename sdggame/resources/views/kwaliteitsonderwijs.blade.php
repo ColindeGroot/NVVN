@@ -4,7 +4,7 @@
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >4. Kwaliteitsonderwijs</div>
+                    <div class="sdg-title" ><span>4.</span> Kwaliteitsonderwijs</div>
                     <div class="sub-title">Inclusief, gelijkwaardig en kwalitatief onderwijs voor iedereen</div>
                     <div class="text" >
                         Kwaliteitsonderwijs gaat over dat iedereen toegang heeft tot goed onderwijs. Passende en scholing is voor alle leeftijdsgroepen en in alle levensfasen van belang, van kleuter- en basisonderwijs tot beroeps- en hoger onderwijs, en daarna via ‘leven lang ontwikkelen’. Vaardigheden van leerlingen worden voor een groot deel bepaald door de kwaliteit van het aangeboden onderwijs. Bovendien zorgt onderwijs ervoor dat de bevolking nu en in de toekomst over de goede vaardigheden beschikt om te functioneren in een kennismaatschappij en goed kunnen meedraaien in de maatschappij.

@@ -26,14 +26,14 @@
                 <div class="swiper-slide"><a class="sdg7" href="<?php echo route('energie'); ?>"><img src="{{url('images/sdg7.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg8" href="<?php echo route('eerlijkwerk'); ?>"><img src="{{url('images/sdg8.svg')}}"></a></div>
                 <div class="swiper-slide"><a class="sdg9" href="<?php echo route('industrie'); ?>"><img src="{{url('images/sdg9.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg10" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg10.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg11" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg11.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg12" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg12.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg13" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg13.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg14" href="<?php echo route('gendergelijkheid'); ?>"><img src="{{url('images/sdg14.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg15" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg15.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg16" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg16.svg')}}"></a></div>
-                <div class="swiper-slide"><a class="sdg17" href="<?php echo route('home'); ?>"><img src="{{url('images/sdg17.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg10" href="<?php echo route('ongelijkheidverminderen'); ?>"><img src="{{url('images/sdg10.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg11" href="<?php echo route('duurzamesteden'); ?>"><img src="{{url('images/sdg11.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg12" href="<?php echo route('verantwoordeconsumptie'); ?>"><img src="{{url('images/sdg12.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg13" href="<?php echo route('klimaatactie'); ?>"><img src="{{url('images/sdg13.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg14" href="<?php echo route('leveninhetwater'); ?>"><img src="{{url('images/sdg14.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg15" href="<?php echo route('levenophetland'); ?>"><img src="{{url('images/sdg15.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg16" href="<?php echo route('vrede'); ?>"><img src="{{url('images/sdg16.svg')}}"></a></div>
+                <div class="swiper-slide"><a class="sdg17" href="<?php echo route('partnerschap'); ?>"><img src="{{url('images/sdg17.svg')}}"></a></div>
             </div>
         </div>
 

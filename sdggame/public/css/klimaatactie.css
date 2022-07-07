@@ -1,0 +1,20 @@
+.area {
+    background: white  !important;
+}
+
+.sub-title {
+    color: var(--sdg13);
+}
+
+.sdg-title {
+    color: var(--sdg13);
+    font-size: 4em !important;
+}
+
+.sdg {
+    background-color: var(--sdg13);
+}
+
+.start-button {
+    background-color: var(--sdg13) !important;
+}

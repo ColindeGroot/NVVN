@@ -4,7 +4,7 @@
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >3. Goede gezondheid en welzijn</div>
+                    <div class="sdg-title" ><span>3.</span> Goede gezondheid en welzijn</div>
                     <div class="sub-title">Gezondheidszorg voor iedereen</div>
                     <div class="text" >
                         Goede gezondheid en welzijn gaat over dat iedereen de kans heeft in zo goed mogelijke gezondheid te leven, door behandeling van ziektes en psychische problemen en voorkomen dat mensen te vroeg sterven. Dit doel gaat ook over het tegengaan van verslaving ( alcohol, drugs, roken) en ook over het voorkomen van verkeersdoden

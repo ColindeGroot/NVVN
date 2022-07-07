@@ -4,7 +4,7 @@
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >7. Betaalbare en duurzame energie</div>
+                    <div class="sdg-title" ><span>7.</span> Betaalbare en duurzame energie</div>
                     <div class="sub-title">Toegang tot betaalbare en duurzame energie voor iedereen</div>
                     <div class="text" >
                         Energiezekerheid, verduurzaming en energie-efficiëntie zijn erg belangrijk. Steeds minder mensen hebben de mogelijkheid om voldoende energie te gebruiken omdat het heel duur is geworden. In koude winters gebruiken veel mensen daarom extra dikke kleding en dekens om lekker warm te blijven en de kachel een beetje kouder te zetten.

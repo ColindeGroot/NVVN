@@ -57,34 +57,34 @@ Route::get('/industrie', function () { // SDG 9
     return view('industrie');
 })->name('industrie');
 
-Route::get('/ongelijkverminderen', function () { // SDG 10
-    return view('geenhonger');
-})->name('geenhonger');
+Route::get('/ongelijkheidverminderen', function () { // SDG 10
+    return view('ongelijkheidverminderen');
+})->name('ongelijkheidverminderen');
 
 Route::get('/duurzamesteden', function () { // SDG 11
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('duurzamesteden');
+})->name('duurzamesteden');
 
 Route::get('/verantwoordeconsumptie', function () { // SDG 12
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('verantwoordeconsumptie');
+})->name('verantwoordeconsumptie');
 
 Route::get('/klimaatactie', function () { // SDG 13
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('klimaatactie');
+})->name('klimaatactie');
 
 Route::get('/leveninhetwater', function () { // SDG 14
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('leveninhetwater');
+})->name('leveninhetwater');
 
 Route::get('/levenophetland', function () { // SDG 15
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('levenophetland');
+})->name('levenophetland');
 
 Route::get('/vrede', function () { // SDG 16
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('vrede');
+})->name('vrede');
 
 Route::get('/partnerschap', function () { // SDG 17
-    return view('geenhonger');
-})->name('geenhonger');
+    return view('partnerschap');
+})->name('partnerschap');

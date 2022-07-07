@@ -4,7 +4,7 @@
     <div class="sdg-content wrapper">
         <div class="sdg-content-wrapper">
             <div class="sdg-textbox">
-                <div class="sdg-title" >2. Geen honger</div>
+                <div class="sdg-title" ><span>2.</span> Geen honger</div>
                 <div class="sub-title">Einde aan honger, zorgen voor voedselzekerheid en duurzame landbouw</div>
                 <div class="text" >
                     Einde aan de honger gaat over het doel honger te beëindigen, voedselzekerheid te garanderen en betere voeding en duurzame landbouw te stimuleren. Omdat in Nederland ondervoeding en voedselonzekerheid niet vaak voorkomen, kijken we ook wel naar obesitas, overvoeding en hoe wij voedsel produceren: hoe duurzaam doen we dat? En welk impact heeft dat op de leefomgeving. Ook voedselverspilling tegengaan hoort hierbij.

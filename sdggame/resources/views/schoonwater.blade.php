@@ -4,7 +4,7 @@
             <div class="sdg-content wrapper">
                 <div class="sdg-content-wrapper">
                     <div class="sdg-textbox">
-                        <div class="sdg-title" >6. Schoon water en sanitair</div>
+                        <div class="sdg-title" ><span>6.</span> Schoon water en sanitair</div>
                         <div class="sub-title">Schoon water en sanitaire voorzieningen voor iedereen
                         </div>
                         <div class="text" >

@@ -4,7 +4,7 @@
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
                 <div class="sdg-textbox">
-                    <div class="sdg-title" >8. Eerlijk werk en economische groei</div>
+                    <div class="sdg-title" ><span>8.</span> Eerlijk werk en economische groei</div>
                     <div class="sub-title">Inclusieve, economische groei, werkgelegenheid en fatsoenlijk werk voor iedereen</div>
                     <div class="text" >
                         Economische groei, met aandacht voor innovatie, ondernemerschap en milieu is erg belangrijk voor een duurzame wereld. Economische activiteiten kunnen op lange termijn schadelijk zijn voor de brede welvaart, de leefomgeving en het welbevinden van de mensen en dieren. Voor de productie van goederen en diensten is input nodig van kapitaal, arbeid en grondstoffen. Worden deze duurzaam en productief ingezet? En hoe worden de winsten en inkomens verdeeld worden over burgers en bedrijven?
