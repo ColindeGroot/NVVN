@@ -33,5 +33,5 @@
     }
 
     // wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
-window.onload = () => setTimeout(hideVideo, 3200), setTimeout(hide, 3000), setTimeout(hideScroll, 5000);
+    window.onload = () => setTimeout(hideVideo, 3200), setTimeout(hide, 3000), setTimeout(hideScroll, 5000);
 </script>   
