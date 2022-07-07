@@ -74,7 +74,7 @@ button {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px;
 }
 
-#anim1 {
+#video {
     position: absolute;
     top: 0;
     margin: 0;
@@ -82,8 +82,9 @@ button {
     overflow: hidden;
     pointer-events: none;
     z-index: 2;
+    object-fit: fill;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .hide-scroll {
@@ -92,7 +93,7 @@ button {
 }
 
 #loading {
-    width: 75px;
+    width: 400px;
     z-index: 2;
     position: absolute;
     left: 0;

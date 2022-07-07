@@ -4,8 +4,8 @@
     <div class="sdg-content wrapper">
         <div class="sdg-content-wrapper">
             <div class="sdg-textbox">
-                <div class="sdg-title" ><span>16.</span> Leven op het land.</div>
-                <div class="sub-title">Een vreedzame en veilige samenleving is het hoofdonderwerp van dit doel. </div>
+                <div class="sdg-title" ><span>16.</span> Vrede, justitie en sterke publieke diensten</div>
+                <div class="sub-title">Bevorderen van veiligheid, publieke diensten en recht voor iedereen</div>
                 <div class="text" >
                 Voor veiligheid en vrede moeten alle vormen van geweld en de sterfte die daarvan het gevolg is verminderd worden. Speciale aandacht gaat uit naar geweld tegen kinderen en naar georganiseerde misdaad. In een veilige samenleving heeft iedereen toegang tot het rechtssysteem, en wordt corruptie tegengegaan. Het ervaren van onveiligheid, met gevoelens van kwetsbaarheid en onzekerheid  kunnen een grote impact hebben op het persoonlijke leven.
                 </div>

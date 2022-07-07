@@ -1,22 +1,4 @@
-
-// haalt animatie op
-var anim1  = bodymovin.loadAnimation({
-    wrapper: document.getElementById('anim1'),
-    renderer: 'svg',
-    loop: false,
-    autoplay: true,
-    path: 'https://assets5.lottiefiles.com/packages/lf20_isjkjty2.json'
-}); 
-
-//haalt laad animatie op
-/* var loading  = bodymovin.loadAnimation({
-    wrapper: document.getElementById('loading'),
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'https://assets8.lottiefiles.com/packages/lf20_dkz94xcg.json'
-}); */
-
+// haalt aardbol animatie op
 var globeAnim  = bodymovin.loadAnimation({
   wrapper: document.getElementById('globe'),
   renderer: 'svg',
@@ -24,6 +6,15 @@ var globeAnim  = bodymovin.loadAnimation({
   autoplay: true,
   path: 'https://assets1.lottiefiles.com/packages/lf20_fxnuatmv.json'
 }); 
+
+//haalt laad animatie op
+var loading  = bodymovin.loadAnimation({
+    wrapper: document.getElementById('loading'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets2.lottiefiles.com/packages/lf20_eh5e7q65.json'
+});
 
 //verbergt de page wanneer de overgang bezig is
 function hide() {
@@ -38,9 +29,6 @@ function hideScroll() {
     var element = document.querySelector('body');
     element.classList.remove("hide-scroll");
 }
-
-// wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
-window.onload = () => anim1.play(), setTimeout(hide, 3000), setTimeout(hideScroll, 6000);
 
 const introBox = document.getElementById("intro-box");
 const swiperBox = document.getElementById("swiper-box");

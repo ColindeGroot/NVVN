@@ -8,7 +8,8 @@
 
 .sdg-title {
     color: var(--sdg10);
-    font-size: 5em !important;
+    font-size: 4em;
+    line-height: 1;
 }
 
 .sdg {

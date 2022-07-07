@@ -13,7 +13,7 @@
                     </div>
                         
                     <div class="sdg-imagebox">
-                        <img class="sdg" src="{{url('images/sdg5.svg')}}">
+                        <img class="sdg" src="{{url('images/sdg6.svg')}}">
                     </div>
                 </div>
             </div>

@@ -1,6 +1,8 @@
 <x-sdg>
     <link rel="stylesheet" href="{{url('css/klimaatactie.css')}}" type="text/css"> 
         
+    <video id="video" autoplay muted src="{{url('videos/klimaatactie.mp4')}}"></video>
+
     <div class="sdg-content wrapper">
         <div class="sdg-content-wrapper">
             <div class="sdg-textbox">
@@ -21,3 +23,15 @@
         <a href="#"><div class="start-button button" >Start challenge</div></a>
     </div>
 </x-sdg>
+
+<script type="text/javascript">  
+    var video  = document.getElementById("video");
+
+    // function om de overgang te hiden
+    function hideVideo() {
+    video.style.display= "none";
+    }
+
+    // wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
+    window.onload = () => setTimeout(hideVideo, 3500), setTimeout(hide, 3000), setTimeout(hideScroll, 5000);
+</script>  

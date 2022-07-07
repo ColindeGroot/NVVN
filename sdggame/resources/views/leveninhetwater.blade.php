@@ -5,7 +5,7 @@
         <div class="sdg-content-wrapper">
             <div class="sdg-textbox">
                 <div class="sdg-title" ><span>14.</span> Leven in het water</div>
-                <div class="sub-title">De bescherming van zeeën en oceanen is erg belangrijk. </div>
+                <div class="sub-title">Beschermen en duurzaam gebruik van de oceanen en zeeën.</div>
                 <div class="text" >
                 Zeewater bedekt ongeveer driekwart van de planeet en vormt het grootste ecosysteem ter wereld. De toenemende negatieve effecten van klimaatverandering, overbevissing en vervuiling vormen een bedreiging voor de waarde van het ecosysteem zelf en voor het gebruik dat ervan gemaakt wordt. Aandacht voor de waterkwaliteit en de duurzaamheid van de visserij in de Noordzee zijn voor ons erg belangrijk.
                 </div>

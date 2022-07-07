@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SDG Game</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="{{url('images/SDG.png')}}">
         <link rel="stylesheet" href="{{url('css/main.css')}}" type="text/css"> 
         <link rel="stylesheet" href="{{url('css/background.css')}}" type="text/css"> 
         <link rel="stylesheet" href="{{url('css/sdg-page.css')}}" type="text/css"> 
@@ -13,9 +14,8 @@
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
     <body class="hide-scroll">
-       {{--  <img  id="loading" src="{{url('images/wheel-100px.gif')}}"> <!-- laad icoon -->
-        <div id="overlay"></div> <!-- dit verbergt de pagina voor paar seconden --> --}}
-        {{-- <div id="anim1"></div> --}}
+        <div id="loading"></div> <!-- laad icoon -->
+        <div id="overlay"></div> <!-- dit verbergt de pagina voor paar seconden -->
 
             <div class="container">
                 {{ $slot }}
