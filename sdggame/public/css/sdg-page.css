@@ -67,6 +67,46 @@ span {
     font-weight: 800;
 }
 
+.slide-out {
+    -webkit-animation-name: out;
+    animation-name: out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes out {
+    from {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(2000px);
+        transform: translateX(2000px);
+    }
+}
+
+.slide-in {
+    -webkit-animation-name: in;
+    animation-name: in;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes in {
+    from {
+        opacity: 1;
+        -webkit-transform: translateX(-2000px);
+        transform: translateX(-2000px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .sdg-title {
         font-size: 4em;

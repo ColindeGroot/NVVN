@@ -1,5 +1,7 @@
 <x-sdg>
     <link rel="stylesheet" href="{{url('css/goedegezondheid.css')}}" type="text/css"> 
+
+    <video id="video" autoplay muted src="{{url('videos/goedegezondheid.mp4')}}"></video>
     
         <div class="sdg-content wrapper">
             <div class="sdg-content-wrapper">
@@ -23,13 +25,35 @@
 </x-sdg>
 
 <script type="text/javascript">  
-    /* var video  = document.getElementById("video"); */
+    var video  = document.getElementById("video");
 
     // function om de overgang te hiden
-    /* function hideVideo() {
+    function hideVideo() {
     video.style.display= "none";
-    } */
+    }
+    
+    // voeg slide out class toe aan video
+    function SlideOut(){
+        video.classList.add("slide-out");
+        video.style.animationDuration = "1s";
+    }
 
-    // wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
-    window.onload = () => /* setTimeout(hideVideo, 3200), */ setTimeout(hide, 3000), setTimeout(hideScroll, 5000);
+    // voeg slide in animatie toe aan video
+    function SlideIn(){
+        video.classList.add("slide-in");
+        video.style.animationDuration = "1s";
+    }
+
+    // verwijder slide in animatie van video, zidat slide out animatie zijn ding kan doen
+    function RemoveSlideIn(){
+        video.classList.remove("slide-in");
+    }
+
+    // wanneer pagina opent, geef slide-in class aan video, 
+    // stel een tijd in wanneer de video wordt verborgen, 
+    // stel tijd in wanneer slide-in class wordt verwijderd, 
+    // stel tijd in wanneer slide-out animatie wordt gebruikt,
+    // stel tijd in wanneer de overlay achter de animatie zich verbergt,
+    // stel tijd in wanneer de scroll hide functie beindigt.
+    window.onload = () => setTimeout(SlideIn), setTimeout(hideVideo, 5500), setTimeout(RemoveSlideIn, 5000), setTimeout(SlideOut, 4500), setTimeout(hide, 4500), setTimeout(hideScroll, 5000);
 </script>

@@ -32,6 +32,28 @@
     video.style.display= "none";
     }
 
-    // wanneer pagina opent, speel overgang af, verberg achtergrond en scroll tijdelijk
-    window.onload = () => setTimeout(hideVideo, 3500), setTimeout(hide, 3000), setTimeout(hideScroll, 5000);
+    // voeg slide out class toe aan video    
+    function SlideOut(){
+        video.classList.add("slide-out");
+        video.style.animationDuration = "1s";
+    }
+
+    // voeg slide in animatie toe aan video
+    function SlideIn(){
+        video.classList.add("slide-in");
+        video.style.animationDuration = "1s";
+    }
+
+    // verwijder slide in animatie van video, zidat slide out animatie zijn ding kan doen
+    function RemoveSlideIn(){
+        video.classList.remove("slide-in");
+    }
+
+    // wanneer pagina opent, geef slide-in class aan video, 
+    // stel een tijd in wanneer de video wordt verborgen, 
+    // stel tijd in wanneer slide-in class wordt verwijderd, 
+    // stel tijd in wanneer slide-out animatie wordt gebruikt,
+    // stel tijd in wanneer de overlay achter de animatie zich verbergt,
+    // stel tijd in wanneer de scroll hide functie beindigt.
+    window.onload = () => setTimeout(SlideIn), setTimeout(hideVideo, 4500), setTimeout(RemoveSlideIn, 4000), setTimeout(SlideOut, 4000), setTimeout(hide, 4000), setTimeout(hideScroll, 5000);
 </script>  
