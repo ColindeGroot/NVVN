@@ -54,6 +54,6 @@
     // stel tijd in wanneer slide-in class wordt verwijderd, 
     // stel tijd in wanneer slide-out animatie wordt gebruikt,
     // stel tijd in wanneer de overlay achter de animatie zich verbergt,
-    // stel tijd in wanneer de scroll hide functie beindigt.
+    // stel tijd in wanneer de scroll hide functie beindigd.
     window.onload = () => setTimeout(SlideIn), setTimeout(hideVideo, 4000), setTimeout(RemoveSlideIn, 3500), setTimeout(SlideOut, 3500), setTimeout(hide, 3500), setTimeout(hideScroll, 5000);
 </script>   
